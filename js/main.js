@@ -1,17 +1,17 @@
-let menuButton = document.querySelector('#nav-menu')
-menuButton.addEventListener('click', toggleMenu)
+// let menuButton = document.querySelector('#nav-menu')
+// menuButton.addEventListener('click', toggleMenu)
 
-let navLinks = document.querySelector('#nav-links')
-let navTitle = document.querySelector('.title')
-function toggleMenu() {
-    if (navLinks.className == 'm-hidden') {
-        navLinks.className = 'show';
-        // navTitle.className = 'hidden';
-    } else {
-        // navTitle.className = 'show';
-        navLinks.className = 'm-hidden';
-    }
-}
+// let navLinks = document.querySelector('#nav-links')
+// let navTitle = document.querySelector('.title')
+// function toggleMenu() {
+//     if (navLinks.className == 'm-hidden') {
+//         navLinks.className = 'show';
+//         // navTitle.className = 'hidden';
+//     } else {
+//         // navTitle.className = 'show';
+//         navLinks.className = 'm-hidden';
+//     }
+// }
 // Allows text area to control CSS of the entire page
 let userCss = document.getElementById('userCSS')
 userCss.addEventListener('keyup', addStyleString)
