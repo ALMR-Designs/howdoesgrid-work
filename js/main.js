@@ -43,7 +43,7 @@ function updateGrid() {
     generatedGrid.innerHTML = '';
     for (let index = 1; index <= (rowInput.value * colInput.value); index++) {
         let div = document.createElement('div');
-        div.innerHTML = index;
+        // div.innerHTML = index;
         div.className = 'grid-tile';
         generatedGrid.appendChild(div)
     }
