@@ -336,6 +336,11 @@ footer .iconify {
   background: transparent;
 }
 
+.grid-inputs {
+  display: flex;
+  flex-direction: column;
+}
+
 @media screen and (min-width: 768px) {
   .mobile {
     display: none;
@@ -352,5 +357,9 @@ footer .iconify {
 
   header nav a:first-child:before {
     content: '| '
+  }
+  .grid-inputs {
+    flex-direction: row;
+    align-items: center;
   }
 }
