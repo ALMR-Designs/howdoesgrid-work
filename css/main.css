@@ -362,4 +362,7 @@ footer .iconify {
     flex-direction: row;
     align-items: center;
   }
+  .grid-inputs input {
+    margin-left: 12px;
+  }
 }
